@@ -60,7 +60,6 @@ export default function Hero() {
           muted
           playsInline
           preload="auto"
-          loading="lazy"
           onError={(e) => console.error("Video failed to load:", e)}
         >
           <source src="bg-snake.mp4" type="video/mp4" />
