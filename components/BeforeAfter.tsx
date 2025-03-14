@@ -84,7 +84,7 @@ const BeforeAfter: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full max-w-5xl mx-auto my-16 select-none text-white">
+    <div  id="before-after" className="relative w-full max-w-5xl mx-auto my-16 select-none text-white">
       <div className="relative mb-8 bg-gradient-to-r from-blue-800 to-black rounded-lg p-6 text-center shadow-lg">
         <h2 className="text-3xl font-bold">Before & After</h2>
         <p className="text-lg opacity-80">Slide to see the transformation</p>
